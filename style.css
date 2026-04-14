@@ -1,4 +1,5 @@
 body {
+    font-family: sans-serif;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 6fr;
@@ -13,7 +14,30 @@ div.heading {
 
 div.top-heading {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 1fr 3fr;
+    grid-template-columns: 1fr 6fr 2fr 1fr 3fr;
+    align-items: center;
+}
+
+div.top-heading img {
+    justify-self:end;
+    margin-right: 10px;
+}
+
+img[alt="avatar"] {
+    border-radius: 50%;
+}
+
+div.top-heading input{
+    height: 30px;
+    background-color: #e2e8f0;
+    border: transparent;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+div.top-heading p {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 div.bottom-heading {
@@ -43,7 +67,7 @@ div.projects {
     grid-column: 1 / 3;
 }
 
-div.trending p {
+p {
     margin: 0;
     padding: 0;
 }
