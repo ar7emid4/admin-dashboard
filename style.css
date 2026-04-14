@@ -42,7 +42,37 @@ div.top-heading p {
 
 div.bottom-heading {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 15px 0;
+}
+
+div.bottom-heading img {
+    margin-left: 50%;
+}
+
+div.bottom-heading p {
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+}
+
+div.bottom-heading p::before {
+    content: "Hi there,";
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+}
+
+div.bottom-heading button {
+    background-color: #1992D4;
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 div.sidebar {
