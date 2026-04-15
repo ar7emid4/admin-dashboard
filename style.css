@@ -22,12 +22,16 @@ img[alt="avatar"] {
     border-radius: 50%;
 }
 
-div.heading input{
+div.heading input {
     height: 30px;
     background-color: #e2e8f0;
     border: transparent;
     border-radius: 15px;
     padding: 0 10px;
+}
+
+div.heading input:hover {
+    background-color: #cad1da;
 }
 
 div.heading p {
@@ -132,6 +136,10 @@ div.projects .card {
     box-shadow: gray 3px 3px 5px;
 }
 
+div.projects .card:hover {
+    box-shadow: none;
+}
+
 .card .title {
     font-weight: 700;
     font-size: 20px;
@@ -169,6 +177,10 @@ div.ann-container {
     flex-direction: column;
     justify-content: space-around;
     box-shadow: gray 3px 3px 5px;
+}
+
+.ann-container:hover {
+    box-shadow: none;
 }
 
 .ann-container div {
@@ -210,6 +222,10 @@ div.trend-container {
     grid-template-columns: 1fr 5fr;
     align-items: center;
     box-shadow: gray 3px 3px 5px;
+}
+
+div.trend-container:hover {
+    box-shadow: none;
 }
 
 .trend-container img {
