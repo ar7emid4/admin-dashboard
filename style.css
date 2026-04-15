@@ -121,6 +121,7 @@ div.content {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #e2e8f0;
+    box-shadow: inset gray 2px 2px 5px;
 }
 
 div.projects {
@@ -146,6 +147,7 @@ div.projects .card {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: gray 3px 3px 5px;
 }
 
 .card .title {
@@ -184,6 +186,7 @@ div.ann-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: gray 3px 3px 5px;
 }
 
 .ann-container div {
@@ -223,6 +226,7 @@ div.trend-container {
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    box-shadow: gray 3px 3px 5px;
 }
 
 .trend-container img {
