@@ -80,15 +80,41 @@ div.sidebar {
     grid-row: 1 / 3;
     background-color: #1992D4;
     color: white;
+    font-weight: 700;
 }
 
 div.sidebar img {
-    filter: invert(100%)
+    filter: invert(100%);
+}
+
+div.sidebar div.logo {
+    font-size: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
 }
 
 ul {
     list-style: none;
 }
+
+div.sidebar li {
+    display: flex;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+div.sidebar ul {
+    margin-top: 60px;
+}
+
+div.sidebar ul p {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
 
 div.content {
     display: grid;
